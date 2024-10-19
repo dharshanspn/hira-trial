@@ -24,9 +24,9 @@ def telegram_bot_sendques (bot_message):
     return response.json()
 
 #variables
-sub = "Ithika ID"
-username = "itika.singh@triviumservice.com"
-password = "Cik-1604-24@021"
+sub = "Account"
+username = "abhishekguptalive42@gmail.com"
+password = "@Bhay1426"
 login_text= f"{sub} Logged in"
 limit_texts = f"Limit hit {sub}"
 flag = True
@@ -63,6 +63,7 @@ while flag:
         telegram_bot_sendtext(f"Password {sub}")
 
 telegram_bot_sendtext(login_text)
+telegram_bot_sendques(login_text)
 
 
 # Navigate to the authoring page
